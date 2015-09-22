@@ -1,0 +1,44 @@
+.wordDict{
+	width: 200px;
+	padding: 20px;
+	font-size: 15px;
+	color:#5a5a5a;
+	position: absolute;
+	top: 20px;
+	left: 200px;
+	background-color: #fff;
+	box-shadow: 0px 1px 4px #5a5a5a;
+	display: none;
+	z-index: 100;
+}
+.pronunciation{
+	width: 15px;
+	margin: auto 4px;
+}
+#dictArea p{
+	display: inline-block;
+}
+.pageUL{
+	margin-top: 15px;
+	text-align: center;
+	height: 50px;
+}
+.pageUL a{
+	color: #929292;
+	padding: 5px 12px;
+	border: 1px solid #5DDAAC;
+	border-left: none;
+}
+.pageUL a:first-child{
+	border-left: 1px solid #5DDAAC;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	background-color: #E1FFEA;
+}
+.pageUL a:last-child{
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.pageUL a:hover{
+	background-color: #F7F7F7;
+}
